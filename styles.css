@@ -1,0 +1,144 @@
+
+
+body {
+  text-align: center;
+  background-image: linear-gradient(45deg, #9CE2B7, #42848D);
+  font-family: 'RocknRoll One', sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  font-weight: 800px;
+  font-size: 4rem;
+  text-shadow: 0px 5px #2F4858;
+  margin-top: 0;
+  margin-bottom: 30px;
+  
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+.drum-image{
+  position: relative;
+  background-image: url("images/kit.png");
+  width: 510px;
+  height: 500px;
+  background-repeat: no-repeat;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.drum {
+  background-color: #F98B77;
+  border: none;
+  border-radius: 10px;
+}
+.drum{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+.w{
+  top: 235px;
+  right: 85px;
+}
+.a{
+  top: 235px;
+  left: 85px;
+}
+.s{
+  top: 151px;
+  left: 151px;
+}
+.j{
+  top: 151px;
+  right: 151px;
+}
+.d{
+  top: 100px;
+  left: 125px;
+}
+.d{
+  top: 15px;
+  left: 66px
+}
+.k{
+  top: 15px;
+  right: 66px;
+}
+.l{
+  top: 310px;
+  right: 231px;
+}
+button{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: white
+}
+.main{
+  position: relative;
+}
+.volume{
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  background-color:azure;
+  padding: 15px;
+  border-radius: 20px;
+  
+}
+.volume h3{
+  color: #42848D;
+  font-size: 1.5rem;
+}
+.volume span{
+  color: #F98B77;
+  font-size: 1.25rem;
+  margin-right: 10px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px #2F4858;
+}
+input[type=range] {
+  height: 10px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #50555C;
+  background: #50555C;
+  border-radius: 14px;
+  border: 0px solid #000000;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 18px;
+  width: 25px;
+  border-radius: 12px;
+  background: #529DE1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3px;
+}
+.reset{
+  border: none;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #f16248;
+  color: white;
+  font-weight: 400;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.reset:hover{
+  background-color: #ea3718;
+}
